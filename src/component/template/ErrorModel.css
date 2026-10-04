@@ -1,0 +1,30 @@
+.modal-backdrop {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.modal {
+  width: 30%;
+  padding: 10px;
+  background: #7c7b7b;
+  border: 1px solid #080505;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(248, 245, 245, 0.947);
+  text-align: center;
+
+  /* Important */
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal h3 {
+  margin: 0 auto;
+  color: #91180d;
+}
+
+.modal button {
+  padding: 5px;
+  cursor: pointer;
+}
